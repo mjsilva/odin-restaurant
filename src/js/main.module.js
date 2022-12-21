@@ -1,3 +1,5 @@
+import "./../css/header.css";
+
 function render() {
   const template = document.createElement("template");
 

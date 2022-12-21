@@ -1,0 +1,38 @@
+.main-header {
+    height: 3rem;
+    border-bottom: 1px solid var(--c-black);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 1% 5%;
+    justify-items: center;
+}
+
+.main-header nav {
+    justify-self: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-header .logo {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.main-header .actions {
+    justify-self: right;
+}
+
+.main-header nav div {
+    padding: 0.8rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all 0.5s ease-out;
+}
+
+.main-header nav div:hover {
+    box-shadow: 0 0 0 1px var(--c-black);
+    background-color: var(--c-light-green);
+    cursor: pointer;
+}
