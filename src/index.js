@@ -3,7 +3,7 @@ import { main } from "./js/main.module";
 import { footer } from "./js/footer.module";
 
 import "reset-css";
-import "./css/main.css";
+import "./css/index.css";
 
 const body = document.body;
 
