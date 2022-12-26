@@ -1,5 +1,6 @@
 import "../css/main.css";
 import PlatingVideo from "./../asset/video/plating.mp4";
+import RestaurantImage from '../asset/images/restaurant.jpg'
 
 function render() {
     const template = document.createElement("template");
@@ -13,7 +14,22 @@ function render() {
         <div class="cuisine">Portuguese Sushi</div>
     </div>
     <div class="main">
-
+        <section class="about">
+            <div class="image">
+                <img src="${RestaurantImage}" alt="restaurant">
+            </div>
+            <div class="about-text">
+                <h1>El Manoel?</h1>
+                <p>What type of cuisine is this? Portuguese sushi?
+                It's like the best fusion you'll ever eat. According to chefs family.</p>
+                <p>
+                    You can visit us in your dreams at night. Those times
+                    you get really hungry in the middle of the night. Instead of
+                    waking up and go to the fridge. No! Just dream about us and
+                    you'll be happy. You can also order on Uber Eats if that fails.
+                </p>
+            </div>
+        </section>
     </div>
   `;
 
