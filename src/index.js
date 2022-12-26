@@ -1,9 +1,9 @@
-import { header } from "./js/header.module";
-import { main } from "./js/main.module";
-import { footer } from "./js/footer.module";
+import { header } from "./modules/header/header.module";
+import { main } from "./modules/main/main.module";
+import { footer } from "./modules/footer/footer.module";
 
 import "reset-css";
-import "./css/index.css";
+import "./index.css";
 
 const body = document.body;
 

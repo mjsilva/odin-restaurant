@@ -1,6 +1,6 @@
-import "../css/main.css";
-import PlatingVideo from "./../asset/video/plating.mp4";
-import RestaurantImage from '../asset/images/restaurant.jpg'
+import "./main.css";
+import PlatingVideo from "./plating.mp4";
+import RestaurantImage from './restaurant.jpg'
 
 function render() {
     const template = document.createElement("template");

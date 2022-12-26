@@ -1,4 +1,4 @@
-import "./../css/header.css";
+import "./header.css";
 
 function render() {
   const template = document.createElement("template");
